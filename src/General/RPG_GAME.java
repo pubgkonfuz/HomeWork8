@@ -8,7 +8,7 @@ public class RPG_GAME {
         Magic magic = new Magic(250,25, "MAG");
         Golem golem = new Golem(250,20,"Golem");
         Warrior warrior = new Warrior(250,25,"VOIN");
-        Medik medik = new Medik(300,0,"MEDIK");
+        Medik medik = new Medik(250,0,"MEDIK");
         Berserk berserk = new Berserk(210,23,"Bers");
 
         Hero[] heroes ={magic,golem,warrior,medik,berserk};
